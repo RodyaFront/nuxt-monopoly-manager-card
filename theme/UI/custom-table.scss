@@ -1,0 +1,41 @@
+.custom-table {
+  &__body-placeholder {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  th {
+    text-align: left;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.3);
+    padding: 4px 5px 8px 0;
+  }
+  tr {
+    &.last {
+      td {
+        border: none;
+      }
+    }
+  }
+  td {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 4px 5px 4px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    max-width: 100px;
+    div {
+      &.first {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

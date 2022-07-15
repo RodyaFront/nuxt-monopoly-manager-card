@@ -1,0 +1,33 @@
+.glass-card {
+  text-transform: none !important;
+  width: 100%;
+  height: auto !important;
+  min-height: auto !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 24px !important;
+  padding: 0 !important;
+  text-align: inherit !important;
+  background: linear-gradient(
+    89.99deg,
+    rgba(217, 217, 217, 0.15) 0.01%,
+    rgba(217, 217, 217, 0) 99.18%,
+    rgba(255, 255, 255, 0.075) 99.18%
+  );
+  .v-btn__content {
+    width: 100%;
+  }
+  .custom-table__body-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  &__inner {
+    padding: 15px 10px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
+  &__data {
+    margin-left: 20px;
+    display: flex;
+    align-content: center;
+  }
+}
